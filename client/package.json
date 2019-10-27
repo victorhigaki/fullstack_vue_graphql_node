@@ -1,5 +1,5 @@
 {
-  "name": "fullstack_vue_graphql_node",
+  "name": "namegator-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
     "font-awesome": "^4.7.0",
@@ -32,9 +33,18 @@
       "eslint:recommended"
     ],
     "rules": {
-      "quotes": ["error", "double"],
-      "indent": ["error", "tab"],
-      "semi": ["error", "always"]
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "indent": [
+        "error",
+        "tab"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
     },
     "parserOptions": {
       "parser": "babel-eslint"
